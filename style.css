@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-de-fundo:#98A8F8;
+    --cor-saldo:#FAF7F0;
+    --cor-botoes:#CDFCF6;
+    --cor-fundo-carteira:#BCCEF8;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(var(--cor-botoes),var(--cor-de-fundo));
+}
+
+.carteira{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 15px;
+    align-items: center;
+    padding: 32px;
+    background: var(--cor-fundo-carteira);
+    box-shadow: 5px 5px 20px var(--cor-botoes);
+   
+}
+.carteira_titulo{
+    font-size: 1.3rem;
+}
+
+.carteira_saldo{
+    font-size:1.4rem;
+    color:var(--cor-de-fundo)
+}
+
+.carteira_btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    
+}
+
+.carteira_inputs{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+   
+ 
+}
+
+.btn_acao{
+    width: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    background: var(--cor-botoes);
+
+}
+
+
+
+.input_valor{
+    width: 70%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn_confirma{
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.esconder_input_btn{
+    display: none;
+}
