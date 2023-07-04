@@ -49,16 +49,6 @@ body{
     
 }
 
-.carteira_inputs{
-
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 12px;
-   
- 
-}
-
 .btn_acao{
     width: 40%;
     padding: 10px;
@@ -67,6 +57,16 @@ body{
     cursor: pointer;
     background: var(--cor-botoes);
 
+}
+
+.carteira_inputs{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+ 
 }
 
 
